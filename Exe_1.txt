@@ -1,0 +1,19 @@
+i=123
+a=str(i)[0]
+b=str(i)[1]
+c=str(i)[2]
+k=str(i)
+
+# print type(k)
+# print (a)
+# print b
+# print c
+
+# print (a+b+c)
+ 
+import mysql.connector
+con=mysql.connector.connect(user='mani',password='mani',host='localhost')
+mycursor=con.cursor()
+PRINT (mycursor.execute('SHOW TABLES'))
+# num=a+b+K
+

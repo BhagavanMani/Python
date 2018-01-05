@@ -1,0 +1,7 @@
+seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+print (seasons)
+list= (list(enumerate(seasons)))
+
+integer = -20
+print('Absolute value of -20 is:{}'.format(abs(integer)))
+print ('Absolute value of -20 is:',abs(integer))

@@ -1,0 +1,24 @@
+# f=open("C:\Users\BhagavanMani\Desktop\pythontest.txt")
+# print f.readlines()
+# line = f.writelines('Bhagavan')
+# f.write("Test")
+# f.close()
+
+# k=open("C:\Users\BhagavanMani\Desktop\pythontest_1.txt","w")
+# k.write('''hkjsagkjahka
+# hsaljdhksajh 
+# hkjsahkjsah 
+# saakjhdk''')
+# k.close()
+
+k=open("C:\Users\BhagavanMani\Desktop\pythontest_1.xls","w")
+line=k.write('''nldnlkndsl
+nsalkdalsddss
+nkjsadkjsakd
+''')
+# print line
+# while line:
+	# print line,
+	# line=k.readline()
+# k.close()
+k.close()
