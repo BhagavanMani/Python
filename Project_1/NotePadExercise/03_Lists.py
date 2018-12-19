@@ -10,6 +10,7 @@ for i in "BhagavanMani":
     lst1.insert(len(lst1),i)
 print(lst1)
 print(enumerate(lst))
+print(list(enumerate(lst)))
 
 for ind,val in enumerate(lst1,start=3):
     print("Index is {}, Values is {}".format(ind,val))
